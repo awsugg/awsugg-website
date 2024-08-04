@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Events on AWS User Group Berlin</title>
+    <link>http://localhost:1313/events/</link>
+    <description>Recent content in Events on AWS User Group Berlin</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 01 Jan 0001 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/events/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>August 2023 Session</title>
+      <link>http://localhost:1313/events/2023-08/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/events/2023-08/</guid>
+      <description>First event text</description>
+    </item>
+    <item>
+      <title>December 2023 Session</title>
+      <link>http://localhost:1313/events/2023-12/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/events/2023-12/</guid>
+      <description>Event text</description>
+    </item>
+    <item>
+      <title>February 2024 Session</title>
+      <link>http://localhost:1313/events/2024-02/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/events/2024-02/</guid>
+      <description>Second event text</description>
+    </item>
+    <item>
+      <title>January 2024 Session</title>
+      <link>http://localhost:1313/events/2024-01/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/events/2024-01/</guid>
+      <description>First event text</description>
+    </item>
+    <item>
+      <title>January 2024 Workshop</title>
+      <link>http://localhost:1313/events/2024-01w/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/events/2024-01w/</guid>
+      <description>First event text</description>
+    </item>
+    <item>
+      <title>July 2023 Session</title>
+      <link>http://localhost:1313/events/2023-07/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/events/2023-07/</guid>
+      <description>First event text</description>
+    </item>
+    <item>
+      <title>June 2023 Session</title>
+      <link>http://localhost:1313/events/2023-06/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/events/2023-06/</guid>
+      <description>First event text</description>
+    </item>
+    <item>
+      <title>March 2024 Session</title>
+      <link>http://localhost:1313/events/2024-03/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/events/2024-03/</guid>
+      <description>Third event text</description>
+    </item>
+    <item>
+      <title>May 2023 Session</title>
+      <link>http://localhost:1313/events/2023-05/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/events/2023-05/</guid>
+      <description>First event text</description>
+    </item>
+    <item>
+      <title>November 2023 Session</title>
+      <link>http://localhost:1313/events/2023-11/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/events/2023-11/</guid>
+      <description>First event text</description>
+    </item>
+    <item>
+      <title>October 2023 Session</title>
+      <link>http://localhost:1313/events/2023-10/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/events/2023-10/</guid>
+      <description>First event text</description>
+    </item>
+    <item>
+      <title>September 2023 Session</title>
+      <link>http://localhost:1313/events/2023-09/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/events/2023-09/</guid>
+      <description>First event text</description>
+    </item>
+  </channel>
+</rss>
