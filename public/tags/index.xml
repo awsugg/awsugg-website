@@ -1,25 +1,25 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Tags on AWS User Group Berlin</title>
-    <link>http://localhost:1313/tags/</link>
-    <description>Recent content in Tags on AWS User Group Berlin</description>
+    <title>Tags on AWS User Group Guatemala</title>
+    <link>https://staging.d352y5tr18k1v8.amplifyapp.com/tags/</link>
+    <description>Recent content in Tags on AWS User Group Guatemala</description>
     <generator>Hugo</generator>
-    <language>en-us</language>
+    <language>es-gt</language>
     <lastBuildDate>Sun, 07 Jan 2024 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://staging.d352y5tr18k1v8.amplifyapp.com/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Green</title>
-      <link>http://localhost:1313/tags/green/</link>
+      <link>https://staging.d352y5tr18k1v8.amplifyapp.com/tags/green/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/green/</guid>
+      <guid>https://staging.d352y5tr18k1v8.amplifyapp.com/tags/green/</guid>
       <description></description>
     </item>
     <item>
       <title>Red</title>
-      <link>http://localhost:1313/tags/red/</link>
+      <link>https://staging.d352y5tr18k1v8.amplifyapp.com/tags/red/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/red/</guid>
+      <guid>https://staging.d352y5tr18k1v8.amplifyapp.com/tags/red/</guid>
       <description></description>
     </item>
   </channel>

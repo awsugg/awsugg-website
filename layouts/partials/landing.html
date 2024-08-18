@@ -1,0 +1,15 @@
+<!-- CSS Reference: /assets/css/partials/landing.css -->
+{{ $styles := resources.Get "css/partials/landing.css" | minify }}
+<link rel="stylesheet" href="{{ $styles.Permalink }}" media="screen">
+
+
+<div class="landing-section">
+    <div class="landing-left">
+        <h1 id="landing-slogan">{{ .landingSlogan }}</h1>
+        <h2 id="landing-sub-slogan">{{ .landingSubSlogan }}</h2>
+        <p id="landing-text">{{ .landingText }}</p>
+    </div>
+    <div class="landing-right">
+        <img src="/images/portada.png" alt="AWS User Group Guatemala Photo">
+    </div>
+  </div>

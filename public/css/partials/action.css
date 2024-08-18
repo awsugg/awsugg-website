@@ -20,7 +20,9 @@
   .action-item {
     position: relative;
     display: flex;
+    align-items: center;
     width: 40%;
+    
   }
   
   .action-item img {
@@ -32,13 +34,28 @@
     font-size: var(--font-size-h4);
     font-family: "Amazon Ember";
     color: var(--color-primary-white);
-    position: relative;
-    top: -50%;
-    text-align: center;
     margin: 0;
-    width: 100%;
+    
   }
   
   .action-item h4:hover {
     color: var(--color-primary-gray);
   }
+
+  .action-item img {
+    max-width: 100%;
+    height: auto;
+    width: 200px;
+    height: 200px; 
+    border-radius: 50%;
+    object-fit: cover;
+    display: block;
+    margin: 0 auto;
+    border: 3px solid white;
+}
+.action-item {
+  display: flex;
+}
+.action-item:nth-of-type(2) {
+  flex-direction: row-reverse;
+}

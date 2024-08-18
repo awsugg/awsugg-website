@@ -1,0 +1,19 @@
+<!-- CSS Reference: /assets/css/partials/action.css -->
+{{ $css := resources.Get "css/partials/action.css" }}
+<link rel="stylesheet" href="{{ $css.Permalink }}" />
+
+<div class="actions-section">
+  <div class="action-slogan">
+    <p>¿Quieres contribuir a nuestra comunidad?</p>
+  </div>
+  <div class="action-items">
+    <div class="action-item" href="https://bit.ly/awsug-talk">
+        <img src="/images/speech.png" alt="Present a Topic action button" />
+        <h4>Dar una charla</h4>
+    </div>
+    <div class="action-item" href="https://bit.ly/awsug-host">
+        <img src="/images/voluntarios.jpg" alt="Host an Event action button" />
+        <h4>Ser voluntario</h4>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html
+	lang="{{ or site.Language.LanguageCode site.Language.Lang }}"
+	dir="{{ or site.Language.LanguageDirection `ltr` }}">
+	<head>
+		{{ template "_default/head.html" . }}
+		<style>
+			.overlay {
+				position: fixed;
+				top: 0;
+				left: 0;
+				width: 100%;
+				height: 100%;
+				background: rgba(0, 0, 0, 0.80);
+				display: flex; 
+				align-items: center;
+				justify-content: center;
+				z-index: 1000; 
+			}
+	
+			.overlay-content {
+				color: #fff;
+				font-size: 1.5em;
+			}
+		</style>
+	</head>
+	<body>
+		<div class="overlay" id="overlay">
+			<div class="overlay-content">
+				<img src="/images/under_construction.png"  />
+			</div>
+		</div>
+		<header class="header">{{ template "_default/header.html" . }}</header>
+		<main>{{ block "main" . }}{{ end }}</main>
+		<footer class="footer">{{ template "_default/footer.html" . }}</footer>
+
+		<script>
+			document.getElementById('overlay').style.display = 'flex';
+		</script>
+	</body>
+</html>

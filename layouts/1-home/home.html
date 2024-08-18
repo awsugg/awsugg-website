@@ -1,0 +1,12 @@
+{{ define "main" }}
+<div class="home">
+  <!-- prettier-ignore -->
+  {{ partial "landing.html" (dict "landingSlogan" "Impulsando a los entusiastas del Cloud" 
+  "landingSubSlogan" "Únete a nosotros para dar forma al futuro del Cloud Computing" 
+  "landingText" "AWS User Group Guatemala es un espacio donde entusiastas y profesionales del Cloud se unen para aprender y crecer. Organizamos sesiones mensuales sobre AWS, DevOps, datos, desarrollo y más. Únete a nuestra comunidad vibrante y potencia tu conocimiento en tecnologías Cloud."  )}}
+  <!-- {{ partial "sponsors.html" .}} -->
+  {{ partial "action.html" .}}
+  <!-- {{ partial "feedback.html" .}}
+  {{ partial "subscribe.html" .}} -->
+</div>
+{{ end }}
