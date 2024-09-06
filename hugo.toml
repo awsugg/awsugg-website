@@ -1,4 +1,4 @@
-baseURL = 'https://staging.d352y5tr18k1v8.amplifyapp.com/'
+baseURL = 'https://awsugg-website.s3.us-east-2.amazonaws.com/'
 languageCode = 'es-gt'
 title = 'AWS User Group Guatemala'
 theme = "awsug"
