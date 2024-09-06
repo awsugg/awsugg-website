@@ -2,31 +2,31 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Blog on AWS User Group Guatemala</title>
-    <link>https://staging.d352y5tr18k1v8.amplifyapp.com/blog/</link>
+    <link>http://localhost:1313/blog/</link>
     <description>Recent content in Blog on AWS User Group Guatemala</description>
     <generator>Hugo</generator>
     <language>es-gt</language>
     <lastBuildDate>Sun, 07 Jan 2024 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://staging.d352y5tr18k1v8.amplifyapp.com/blog/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/blog/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>My Last Post</title>
-      <link>https://staging.d352y5tr18k1v8.amplifyapp.com/blog/my-last-post/</link>
+      <link>http://localhost:1313/blog/my-last-post/</link>
       <pubDate>Sun, 07 Jan 2024 00:00:00 +0000</pubDate>
-      <guid>https://staging.d352y5tr18k1v8.amplifyapp.com/blog/my-last-post/</guid>
+      <guid>http://localhost:1313/blog/my-last-post/</guid>
       <description>Anim eiusmod irure incididunt sint cupidatat. Incididunt irure irure irure nisi ipsum do ut quis fugiat consectetur proident cupidatat incididunt cillum. Dolore voluptate occaecat qui mollit laborum ullamco et. Ipsum laboris officia anim laboris culpa eiusmod ex magna ex cupidatat anim ipsum aute.</description>
     </item>
     <item>
       <title>Common User Data Templates for EC2</title>
-      <link>https://staging.d352y5tr18k1v8.amplifyapp.com/blog/common-user-data-templates-for-ec2/</link>
+      <link>http://localhost:1313/blog/common-user-data-templates-for-ec2/</link>
       <pubDate>Fri, 12 May 2023 00:00:00 +0000</pubDate>
-      <guid>https://staging.d352y5tr18k1v8.amplifyapp.com/blog/common-user-data-templates-for-ec2/</guid>
+      <guid>http://localhost:1313/blog/common-user-data-templates-for-ec2/</guid>
       <description>User data is worth considering while launching an EC2 instance. Any type of instance you decide to build, it will be necessary to install some supplementary software (load balancer, content management system, config tools etc.).</description>
     </item>
     <item>
       <title>My First Post</title>
-      <link>https://staging.d352y5tr18k1v8.amplifyapp.com/blog/my-first-post/</link>
+      <link>http://localhost:1313/blog/my-first-post/</link>
       <pubDate>Sat, 01 Oct 2022 00:00:00 +0000</pubDate>
-      <guid>https://staging.d352y5tr18k1v8.amplifyapp.com/blog/my-first-post/</guid>
+      <guid>http://localhost:1313/blog/my-first-post/</guid>
       <description>Anim eiusmod irure incididunt sint cupidatat. Incididunt irure irure irure nisi ipsum do ut quis fugiat consectetur proident cupidatat incididunt cillum. Dolore voluptate occaecat qui mollit laborum ullamco et. Ipsum laboris officia anim laboris culpa eiusmod ex magna ex cupidatat anim ipsum aute.</description>
     </item>
   </channel>
