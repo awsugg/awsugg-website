@@ -81,3 +81,31 @@
     color: var(--color-secondary-darkpurple);
     font-family: "Amazon Ember";
   }
+
+  @media (max-width: 768px) {
+    .subscribe-form {
+      flex-direction: column;
+      gap: 5px;
+    }
+    .subscribe-text {
+      font-size: 16px;
+    }
+    .subscribe-left {
+      width: 80%;
+    }
+    
+  }
+  @media (max-width: 1024px) {
+    .subscribe-items {
+      flex-direction: column;
+    }
+    .subscribe-left {
+      width: 50%;
+    }
+  }
+  @media (max-width: 880px) {
+    .subscribe-right {
+      display: flex;
+      justify-content: center;
+    }
+  }

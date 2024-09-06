@@ -21,7 +21,7 @@
     position: relative;
     display: flex;
     align-items: center;
-    width: 40%;
+    width: 41%;
     
   }
   
@@ -46,7 +46,7 @@
     max-width: 100%;
     height: auto;
     width: 200px;
-    height: 200px; 
+    height: 230px; 
     border-radius: 50%;
     object-fit: cover;
     display: block;
@@ -58,4 +58,23 @@
 }
 .action-item:nth-of-type(2) {
   flex-direction: row-reverse;
+}
+@media (max-width: 768px)
+{
+  .action-items{
+    flex-direction: column;
+    gap: 20px;
+  }
+  .action-item:nth-of-type(2){
+    flex-direction: row;
+  }
+  .action-item{
+    gap: 15px;
+  }
+  .action-slogan p{
+    font-size: 30px;
+  }
+  .action-item h4{
+    font-size: 24px;
+  }
 }

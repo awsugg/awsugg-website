@@ -31,9 +31,9 @@ summaryLength = '35'
     url = "/blog/"
     weight = 50
 
-#[deployment]
+[deployment]
 
-#[[deployment.targets]]
-#name = "production"
-#URL = "s3://aws-user-group.berlin?region=eu-central-1"
+[[deployment.targets]]
+name = "production"
+URL = "s3://awsugg-website?region=us-east-2"
 #cloudFrontDistributionID = "E2RPNIMVK40BRV"

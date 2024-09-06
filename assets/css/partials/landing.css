@@ -31,7 +31,8 @@
 }
 
 .landing-right {
-  width: 60%;
+  width: 100%;
+  
 }
 
 .landing-right img {
@@ -40,4 +41,26 @@
   height: 100%;
   z-index: -1;
   clip-path: polygon(0 100%, 30% 0, 100% 0, 100% 100%);
+}
+@media (max-width:1024px){
+  .landing-section{
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    justify-content: center;
+    align-items: center;
+  }
+  .landing-left{
+    text-align: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 80%;
+  }
+  p#landing-text{
+    font-size: 15px;
+  }
+  .landing-right img{
+    clip-path: polygon(0 100%, 0% 0, 100% 0, 100% 100%);
+  }
 }
