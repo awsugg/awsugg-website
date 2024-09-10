@@ -6,7 +6,7 @@
 }
 
 .landing-left {
-  width: 40%;
+  width: 60%;
   padding-top: 3%;
   margin-left: 5%;
 }
@@ -16,16 +16,18 @@
   font-family: "Amazon Ember";
   font-weight: bold;
   padding: 0%;
+  width: 130%;
 }
 
 #landing-sub-slogan {
   font-size: var(--font-size-h2);
   font-family: "Amazon Ember";
+  width: 120%;
 }
 
 #landing-text {
   font-size: var(--font-size-quote);
-  font-family: "Bookerly LCD";
+  font-family: "Amazon Ember";
   font-weight: 300;
   line-height: 155%;
 }
@@ -63,4 +65,11 @@
   .landing-right img{
     clip-path: polygon(0 100%, 0% 0, 100% 0, 100% 100%);
   }
+  #landing-slogan {
+    width: 100%;
+  }
+  #landing-sub-slogan {
+    width: 100%;
+  }
 }
+

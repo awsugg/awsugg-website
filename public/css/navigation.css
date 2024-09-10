@@ -157,9 +157,9 @@ header img {
 
 .footer-bg-image {
   position: absolute;
-  right: 0;
+  left: 0;
   bottom: 0;
-  width: 320px; 
+  width: 700px; 
 }
 
 .burguer {
@@ -337,11 +337,11 @@ header img {
   }
 
   .footer-bg-image {
-    width: auto;
+    width: 100%;
     margin-top: 15px; /* Hide background image on mobile for cleaner look */
+    position: unset;
   }
 }
-
 
 
 
