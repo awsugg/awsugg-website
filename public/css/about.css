@@ -19,7 +19,7 @@
 
 #top-mini-slogan {
 	font-size: var(--font-size-quote);
-	font-family: "Bookerly LCD";
+	font-family: "Amazon Ember";
 	font-weight: 300;
 	margin-top: 2%;
 }
@@ -41,7 +41,7 @@
 
 .intro-text {
 	font-size: 16px;
-	font-family: "Bookerly LCD";
+	font-family: "Amazon Ember";
 	font-weight: 300;
 	line-height: 140%;
 	text-align: justify;
@@ -88,10 +88,14 @@
 	.about-image {
 		width: 100%;
 		order: 2;
+		display: flex;
+		justify-content: center;
 	}
 
 	.text-area {
 		order: 1;
+		display: flex;
+		align-items: center;
 	}
 }
 

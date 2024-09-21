@@ -2,10 +2,10 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Categories on AWS User Group Guatemala</title>
-    <link>https://staging.d352y5tr18k1v8.amplifyapp.com/categories/</link>
+    <link>https://awsugg-website.s3.us-east-2.amazonaws.com/categories/</link>
     <description>Recent content in Categories on AWS User Group Guatemala</description>
     <generator>Hugo</generator>
     <language>es-gt</language>
-    <atom:link href="https://staging.d352y5tr18k1v8.amplifyapp.com/categories/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://awsugg-website.s3.us-east-2.amazonaws.com/categories/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>

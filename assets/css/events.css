@@ -61,5 +61,18 @@
 a {
 	color: var(--color-primary-gray);
 }
+@media (max-width:1024px) {
+	#eventsGrid{
+		grid-template-columns: repeat(1, 1fr);
+	}
+}
+@media (max-width: 425px) {
+	.eventBanner {
+		width: 310px;
+	}
+	#eventsGrid {
+		padding: 0;
+	}
+}
 
 

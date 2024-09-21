@@ -3,7 +3,7 @@
 	lang="es-gt"
 	dir="ltr">
 	<head>
-	<meta name="generator" content="Hugo 0.128.0">
+	<meta name="generator" content="Hugo 0.132.1">
 		<meta charset="utf-8">
 <meta name="viewport" content="width=device-width">
 <title>AWS User Group Guatemala</title>  
@@ -11,7 +11,7 @@
       <link rel="stylesheet" href="/css/main.min.09eeee5156551794eec6b99ece3765513a1bef6616615ec133a6173d063e1449.css" integrity="sha256-Ce7uUVZVF5TuxrmezjdlUTob72YWYV7BM6YXPQY&#43;FEk=" crossorigin="anonymous">
 
 
-      <link rel="stylesheet" href="/css/navigation.min.49b0ddf6efc8e8ff239816954a407b2e10a65b8c4f5d1d9c3fe5b21f66779443.css" integrity="sha256-SbDd9u/I6P8jmBaVSkB7LhCmW4xPXR2cP&#43;WyH2Z3lEM=" crossorigin="anonymous">
+      <link rel="stylesheet" href="/css/navigation.min.98b50180c7141df7c52844a4c359d643f009838b9150914f0917c6c6a627d618.css" integrity="sha256-mLUBgMcUHffFKESkw1nWQ/AJg4uRUJFPCRfGxqYn1hg=" crossorigin="anonymous">
 
 
       <link rel="stylesheet" href="/css/fonts.min.bb278082a1a85230f1d1fc586412d386d8353f57012241f516023fbe85c5dc91.css" integrity="sha256-uyeAgqGoUjDx0fxYZBLThtg1P1cBIkH1FgI/voXF3JE=" crossorigin="anonymous">
@@ -48,7 +48,7 @@
 		</div>
 		<header class="header"><div class="container header-container">
 	<div class="logo">
-		<img src="/images/logo.png" alt="Home" style="max-width: 150px;">
+		<img src="/images/logo.png" alt="Home">
 	</div>
 	
 	
@@ -78,14 +78,57 @@
 		</ul>
 	</nav>
 	<div class="spacer"></div>
+	<div class="burguer" onclick="toggleMenu()">
+		<div class="line"></div>
+		<div class="line"></div>
+		<div class="line"></div>
+	</div>
 </div>
+<div id="menu-mobile" class="menu-mobile">
+	<div class="menu-mobile-content">
+		<div class="logo-mobile">
+			<img src="/images/logo.png" alt="Home">
+			<span onclick="toggleMenu()">&#x2715;</span>
+		</div>
+		<ul class="nav-list-mobile">
+			  
+			<li class="nav-item-mobile" >
+				<a href="/">Inicio</a>
+			</li>
+			  
+			<li class="nav-item-mobile" >
+				<a href="/about/">Quiénes Somos</a>
+			</li>
+			  
+			<li class="nav-item-mobile" >
+				<a href="/team/">Voluntarios</a>
+			</li>
+			  
+			<li class="nav-item-mobile" >
+				<a href="/events/">Eventos</a>
+			</li>
+			  
+			<li class="nav-item-mobile" >
+				<a href="/blog/">Publicaciones</a>
+			</li>
+			
+		</ul>
+	</div>
+</div>
+
+<script>
+	function toggleMenu() {
+		const menu = document.getElementById('menu-mobile');
+		menu.classList.toggle('visible');
+	}
+</script>
 </header>
 		<main>
 <div class="home">
   
   
 
-<link rel="stylesheet" href="https://staging.d352y5tr18k1v8.amplifyapp.com/css/partials/landing.min.css" media="screen">
+<link rel="stylesheet" href="https://awsugg-website.s3.us-east-2.amazonaws.com/css/partials/landing.min.css" media="screen">
 
 
 <div class="landing-section">
@@ -95,13 +138,13 @@
         <p id="landing-text">AWS User Group Guatemala es un espacio donde entusiastas y profesionales del Cloud se unen para aprender y crecer. Organizamos sesiones mensuales sobre AWS, DevOps, datos, desarrollo y más. Únete a nuestra comunidad vibrante y potencia tu conocimiento en tecnologías Cloud.</p>
     </div>
     <div class="landing-right">
-        <img src="/images/portada.png" alt="AWS User Group Guatemala Photo">
+        <img src="/images/portad.jpeg" alt="AWS User Group Guatemala Photo">
     </div>
   </div>
   
   
 
-<link rel="stylesheet" href="https://staging.d352y5tr18k1v8.amplifyapp.com/css/partials/action.css" />
+<link rel="stylesheet" href="https://awsugg-website.s3.us-east-2.amazonaws.com/css/partials/action.css" />
 
 <div class="actions-section">
   <div class="action-slogan">
@@ -124,28 +167,28 @@
 </main>
 		<footer class="footer"><div class="footer-line"></div>
 <div class="footer-column">
-  <h3><a href="/">HOME</a></h3>
+  <h3><a href="/">INICIO</a></h3>
   <a href="/">General</a>
   
-  <a href="#">Contribute</a>
-  <a href="#">Feedback</a>
-  <a href="#">Subscribe</a>
+  <a href="#">Contribuir</a>
+  <a href="#">Comentarios</a>
+  <a href="#">Suscribirse</a>
 </div>
 
 <div class="footer-column">
-  <h3><a href="/about/">Quiénes Somos</a></h3>
+  <h3><a href="/about/">QUÍENES SOMOS</a></h3>
   <a href="/about">AWS</a>
   <a href="#">User Groups</a>
 </div>
 
 <div class="footer-column">
-  <h3><a href="/team/">Equipo</a></h3>
+  <h3><a href="/team/">EQUIPO</a></h3>
   <a href="#">Lideres</a>
   <a href="#">Voluntarios</a>
 </div>
 
 <div class="footer-column">
-  <h3><a href="/events/">EVENTS</a></h3>
+  <h3><a href="/events/">EVENTOS</a></h3>
   <a href="#">Próximos eventos</a>
   <a href="#">Eventos pasados</a>
 </div>
@@ -178,11 +221,12 @@
     </div>
   </div>
 </div>
-<img src="/images/citygraph.png" class="footer-bg-image" />
+<img src="/images/piePagina.png" class="footer-bg-image" />
+
 </footer>
 
 		<script>
-			document.getElementById('overlay').style.display = 'flex';
+			document.getElementById('overlay').style.display = 'none';
 		</script>
 	</body>
 </html>

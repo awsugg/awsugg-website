@@ -1,6 +1,6 @@
 <div class="container header-container">
 	<div class="logo">
-		<img src="/images/logo.png" alt="Home" style="max-width: 150px;">
+		<img src="/images/logo.png" alt="Home">
 	</div>
 	<!-- Navigation menu -->
 	{{ $page := . }}
@@ -15,4 +15,32 @@
 		</ul>
 	</nav>
 	<div class="spacer"></div>
+	<div class="burguer" onclick="toggleMenu()">
+		<div class="line"></div>
+		<div class="line"></div>
+		<div class="line"></div>
+	</div>
 </div>
+<div id="menu-mobile" class="menu-mobile">
+	<div class="menu-mobile-content">
+		<div class="logo-mobile">
+			<img src="/images/logo.png" alt="Home">
+			<span onclick="toggleMenu()">&#x2715;</span>
+		</div>
+		<ul class="nav-list-mobile">
+			{{ range site.Menus.main }} {{ $active := or ($page.IsMenuCurrent "main" .) ($page.HasMenuCurrent "main" .) }} {{
+			$active = or $active (eq .Name $page.Title) }}
+			<li {{ if $active }}class="active nav-item-mobile" {{else}}class="nav-item-mobile" {{ end }}>
+				<a href="{{ .URL }}">{{ .Name }}</a>
+			</li>
+			{{ end }}
+		</ul>
+	</div>
+</div>
+
+<script>
+	function toggleMenu() {
+		const menu = document.getElementById('menu-mobile');
+		menu.classList.toggle('visible');
+	}
+</script>

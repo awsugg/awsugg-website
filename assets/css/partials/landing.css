@@ -6,7 +6,7 @@
 }
 
 .landing-left {
-  width: 40%;
+  width: 60%;
   padding-top: 3%;
   margin-left: 5%;
 }
@@ -16,22 +16,25 @@
   font-family: "Amazon Ember";
   font-weight: bold;
   padding: 0%;
+  width: 130%;
 }
 
 #landing-sub-slogan {
   font-size: var(--font-size-h2);
   font-family: "Amazon Ember";
+  width: 120%;
 }
 
 #landing-text {
   font-size: var(--font-size-quote);
-  font-family: "Bookerly LCD";
+  font-family: "Amazon Ember";
   font-weight: 300;
   line-height: 155%;
 }
 
 .landing-right {
-  width: 60%;
+  width: 100%;
+  
 }
 
 .landing-right img {
@@ -41,3 +44,32 @@
   z-index: -1;
   clip-path: polygon(0 100%, 30% 0, 100% 0, 100% 100%);
 }
+@media (max-width:1024px){
+  .landing-section{
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    justify-content: center;
+    align-items: center;
+  }
+  .landing-left{
+    text-align: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 80%;
+  }
+  p#landing-text{
+    font-size: 15px;
+  }
+  .landing-right img{
+    clip-path: polygon(0 100%, 0% 0, 100% 0, 100% 100%);
+  }
+  #landing-slogan {
+    width: 100%;
+  }
+  #landing-sub-slogan {
+    width: 100%;
+  }
+}
+
