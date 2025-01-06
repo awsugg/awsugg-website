@@ -1,59 +1,70 @@
-# AWS User Group Guatemala
+# Getting Started with Create React App
 
-Página web para la comunidad de AWS de Guatemala
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Requisitos
-- [Hugo](https://gohugo.io/getting-started/quick-start/) versión 0.132.1
-- Visual studio code o algún otro IDE. 
+## Available Scripts
 
-## Trabajar en local
+In the project directory, you can run:
 
-### Clonar el repositorio
-```
-git clone https://github.com/awsugg/awsugg-website.git
-```
+### `npm start`
 
-### Ingresar al directorio clonado
-```
-cd awsugg-website
-```
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-### Agregar el tema
+The page will reload when you make changes.\
+You may also see any lint errors in the console.
 
-**Opción 1**
+### `npm test`
 
-```
-# paso 1
-git submodule add https://github.com/kkeles/awsug-hugo.git themes/awsug -f
+Launches the test runner in the interactive watch mode.\
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-# paso 2 (version  recomendada)
-git submodule set-branch --branch v1.2.0 themes/awsug
-```
+### `npm run build`
 
-**Opción 2**
-```
-git submodule init && git submodule update
-```
+Builds the app for production to the `build` folder.\
+It correctly bundles React in production mode and optimizes the build for the best performance.
 
-### Versión del tema awsug
-```
-v1.2.0
-```
+The build is minified and the filenames include the hashes.\
+Your app is ready to be deployed!
 
-### Cambiar la version del tema
-```
-git submodule set-branch --branch {version} themea/awsug
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-# e.g. v1.3.0
-```
+### `npm run eject`
 
-### Levantar el servicio usando el siguiente comando
-```
-hugo server
-```
+**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-## Compilar para produccion
-```
-# Esto generará una versión estática de tu sitio en la carpeta public/ por defecto.
-hugo
-```
+If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+
+You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+
+## Learn More
+
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+
+To learn React, check out the [React documentation](https://reactjs.org/).
+
+### Code Splitting
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+
+### Analyzing the Bundle Size
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+
+### Making a Progressive Web App
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+
+### Advanced Configuration
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+
+### Deployment
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+
+### `npm run build` fails to minify
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
