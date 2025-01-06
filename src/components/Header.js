@@ -16,7 +16,7 @@ function Header() {
       </div>
       <div className="flex flex-1 justify-end gap-8">
         <div className="flex items-center gap-9">
-          <a
+          {/* <a
             className="text-white text-sm font-medium leading-normal"
             href="#"
           >
@@ -45,7 +45,7 @@ function Header() {
             href="#"
           >
             Guides
-          </a>
+          </a> */}
         </div>
       </div>
     </header>
