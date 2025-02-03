@@ -38,6 +38,13 @@ function CommunityLeaders() {
       image:
         "https://media.licdn.com/dms/image/v2/D4E03AQGBSDwLD_83vQ/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1726021050500?e=1741824000&v=beta&t=XOkb4gsZXecwl4dqTR_hoiasKYmPimhvc6f5KixmujM",
     },
+    {
+      name: "Jherson Saso",
+      role: "Voluntario de la comunidad",
+      profile: "https://www.linkedin.com/in/jherson-sazo/",
+      image:
+        "https://media.licdn.com/dms/image/v2/C4E03AQFm_qHo10zPlw/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1598458435988?e=1743638400&v=beta&t=w7jN3Ktct4vaKl_4FEamABayZRraHCYsW4q-tGHTHUw",
+    },
   ];
 
   return (
